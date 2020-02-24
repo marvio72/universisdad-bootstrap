@@ -1,25 +1,21 @@
 /*--------------------------------------------------------------
   1. Patrones de colores
   -------------------------------------------------------------*/
-/* Fondos */
-$primary: #1572AA
-$secundary: #23282D
-
-/* Textos */
-$texto: rgb(50,55,60)
+$primary: #0073aa;
+$secondary: #23282d;
+$texto: rgb(50,55,60);
 
 /*--------------------------------------------------------------
-  Modificando variables de Bootstrap
+  2. Modificando variables de Bootstrap
   -------------------------------------------------------------*/
 
-/*--------------------------------------------------------------
-  Modificando el mapa colores de Bootstrap
-  -------------------------------------------------------------*/
+/* Modificando el mapa de colores de Bootstrap */
 $theme-colors:(
-  "primary": red,
-  "secondary": blue
-)
+    "primary": $primary,
+    "secondary": $secondary
+);
+
 /*--------------------------------------------------------------
   1. Importando Bootstrap
   -------------------------------------------------------------*/
-@import "../libs/bootstrap-4.4.1/scss/bootstrap"
+@import"../libs/bootstrap-4.4.1/scss/bootstrap"
