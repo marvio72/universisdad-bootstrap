@@ -15,6 +15,20 @@ $theme-colors:(
     "secondary": $secondary
 );
 
+/*Personalizando la apariencia de Bootstrap*/
+$enable-shadows: true;
+$enable-gradients: true;
+
+/*Modificando las clases de espaciados en Bootstrap*/
+$spacer: 1rem;
+$spacers: (
+    6: ($spacer * 3.5),
+    7: ($spacer * 4),
+    8: ($spacer * 4.5),
+    9: ($spacer * 5),
+    10: ($spacer * 6),
+);
+
 /*--------------------------------------------------------------
   1. Importando Bootstrap
   -------------------------------------------------------------*/
