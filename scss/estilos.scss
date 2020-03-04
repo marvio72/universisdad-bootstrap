@@ -26,6 +26,10 @@ $link-hover-color     : $primary;
 $link-hover-decoration: underline;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 $emphasized-link-hover-darken-percentage: 15% !default;
+// Bordes
+$border-radius: .25rem;
+$border-radius-lg: .3rem;
+$border-radius-sm: .2rem;
 
 /*Modificando las clases de espaciados en Bootstrap*/
 $spacer: 1rem;
