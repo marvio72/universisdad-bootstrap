@@ -16,20 +16,22 @@ $theme-colors:(
 );
 
 /*Personalizando la apariencia de Bootstrap*/
-$enable-shadows: true;
-$enable-gradients: true;
-$body-color: $texto;
+$enable-shadows                         : true;
+$enable-gradients                       : true;
+$body-color                             : $texto;
 //Enlases
-$link-color           : $primary;
-$link-decoration      : none;
-$link-hover-color     : $primary;
-$link-hover-decoration: underline;
+$link-color                             : $primary;
+$link-decoration                        : none;
+$link-hover-color                       : $primary;
+$link-hover-decoration                  : underline;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 $emphasized-link-hover-darken-percentage: 15% !default;
 // Bordes
-$border-radius: .25rem;
-$border-radius-lg: .3rem;
-$border-radius-sm: .2rem;
+$border-radius                          : .25rem;
+$border-radius-lg                       : .3rem;
+$border-radius-sm                       : .2rem;
+//Fuentes
+$font-family-base                       : 'Open Sans', sans-serif;;
 
 /*Modificando las clases de espaciados en Bootstrap*/
 $spacer: 1rem;
