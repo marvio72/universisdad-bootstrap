@@ -3,7 +3,7 @@
   -------------------------------------------------------------*/
 $primary: #0073aa;
 $secondary: #23282d;
-$texto: rgb(50,55,60);
+$texto: #32373c;
 
 /*--------------------------------------------------------------
   2. Modificando variables de Bootstrap
@@ -18,6 +18,14 @@ $theme-colors:(
 /*Personalizando la apariencia de Bootstrap*/
 $enable-shadows: true;
 $enable-gradients: true;
+$body-color: $texto;
+//Enlases
+$link-color           : $primary;
+$link-decoration      : none;
+$link-hover-color     : $primary;
+$link-hover-decoration: underline;
+// Darken percentage for links with `.text-*` class (e.g. `.text-success`)
+$emphasized-link-hover-darken-percentage: 15% !default;
 
 /*Modificando las clases de espaciados en Bootstrap*/
 $spacer: 1rem;
