@@ -66,4 +66,13 @@ $spacers: (
     font-size: .8rem;
     border-bottom: 1px solid lighten($secondary, 15%)
   }
+  .btnBuscar{
+    position: absolute;
+    right: 0;
+    top:0;
+    background: transparent;
+    border: 0;
+    color: $campoBuscar;
+    padding: .3rem .5rem;
+  }
 }
