@@ -13,6 +13,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
   <!--Cargando archivo rd-navbar.css-->
   <link rel="stylesheet" href="libs/rd-navbar/dist/css/rd-navbar.css">
+  <!--Cargando Font Awsome-->
+  <link rel="stylesheet" href="libs/fontawesome-free-5.12.1/css/all.min.css">
   
   
   <!-- Estilos Propios -->
@@ -30,12 +32,20 @@
           <div class="row">
             <div class="col-12">
               <a href="#">
-                <img src="images/wporg-logo.svg" alt="Logo Wordpress.org" width="280" height="auto">
+                <img src="images/wporg-logo.svg" alt="Logo Wordpress.org" width="280" height="auto" class="img-fluid">
               </a>
-            </div>
-          </div>
-        </div>
-      </div>
+            </div> <!--.col-12-->
+            <div class="col-12">
+              <form action="#" class="bloque-buscar">
+                <input type="text" id="campoBuscar" name="campoBuscar" class="form-control" placeholder="Search WordPres.org">
+                <button type="submit" class="btnBuscar">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+            </div> <!--.col-12-->
+          </div> <!--.row-->
+        </div> <!--.container-->
+      </div> <!--.rd-panel-encabezado-->
 
     </nav> <!-- .rd-navbar-->
   </header> <!--.rd-navbar-wrap-->
@@ -52,6 +62,7 @@
   <script src="libs/rd-navbar/dist/js/jquery.rd-navbar.min.js"></script>
   <!-- Carga archivo mis-scripts.js-->
   <script src="js/mis-scripts.js"></script>
+  
 </body>
 
 </html>
