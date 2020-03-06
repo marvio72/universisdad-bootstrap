@@ -8,6 +8,9 @@ $primary: #0073aa;
 $secondary: #23282d;
 $texto: #32373c;
 
+//texto varios
+$campoBuscar: #ababab;
+
 /*--------------------------------------------------------------
   2. Modificando variables de Bootstrap
   -------------------------------------------------------------*/
@@ -47,6 +50,20 @@ $spacers: (
 );
 
 /*--------------------------------------------------------------
-  1. Importando Bootstrap
+  3. Importando Bootstrap
   -------------------------------------------------------------*/
-@import"../libs/bootstrap-4.4.1/scss/bootstrap"
+@import"../libs/bootstrap-4.4.1/scss/bootstrap";
+
+/*--------------------------------------------------------------
+  4. Estilos para el encabezado y menú Rd-navbar
+  -------------------------------------------------------------*/
+.bloque-buscar{
+  .form-control{
+    border: 0;
+    border-radius: 2px;
+    background: darken($secondary, 10%);
+    color: $campoBuscar;
+    font-size: .8rem;
+    border-bottom: 1px solid lighten($secondary, 15%)
+  }
+}

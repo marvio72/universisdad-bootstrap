@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .row > * {
   border: 1px solid red; }
 
@@ -11,7 +12,7 @@
 /*Personalizando la apariencia de Bootstrap*/
 /*Modificando las clases de espaciados en Bootstrap*/
 /*--------------------------------------------------------------
-  1. Importando Bootstrap
+  3. Importando Bootstrap
   -------------------------------------------------------------*/
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
@@ -9297,5 +9298,15 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+/*--------------------------------------------------------------
+  4. Estilos para el encabezado y menú Rd-navbar
+  -------------------------------------------------------------*/
+.bloque-buscar .form-control {
+  border: 0;
+  border-radius: 2px;
+  background: #0d0f10;
+  color: #ababab;
+  font-size: .8rem;
+  border-bottom: 1px solid #444e58; }
 
 /*# sourceMappingURL=estilos.css.map */
