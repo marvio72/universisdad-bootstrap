@@ -9320,7 +9320,8 @@ a.text-dark:hover, a.text-dark:focus {
 /*4.1 Estilos Rd-navbar (Vista Movil)*/
 .rd-navbar-fixed .rd-panel-encabezado {
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 16; }
 
 .rd-navbar-fixed .rd-navbar-toggle {
   position: absolute;
