@@ -9322,4 +9322,19 @@ a.text-dark:hover, a.text-dark:focus {
   position: fixed;
   width: 100%; }
 
+.rd-navbar-fixed .rd-navbar-toggle {
+  position: absolute;
+  z-index: 17;
+  top: 4.5rem;
+  left: .6rem;
+  background: transparent;
+  border: 0;
+  transform: scale(1.4);
+  padding: 0; }
+
+.rd-navbar-fixed .rd-navbar-toggle span:after,
+.rd-navbar-fixed .rd-navbar-toggle span:before,
+.rd-navbar-fixed .rd-navbar-toggle span {
+  background-color: #ababab; }
+
 /*# sourceMappingURL=estilos.css.map */
