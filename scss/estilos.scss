@@ -4,12 +4,14 @@
 /*--------------------------------------------------------------
   1. Patrones de colores
   -------------------------------------------------------------*/
+//Color de Fondo
 $primary: #0073aa;
 $secondary: #23282d;
-$texto: #32373c;
 
-//texto varios
+//Texto varios
+$texto: #32373c;
 $campoBuscar: #ababab;
+$textoMenu: #e2e2e2;
 
 /*--------------------------------------------------------------
   2. Modificando variables de Bootstrap
@@ -83,6 +85,10 @@ $spacers: (
     width: 100%;
     z-index: 16;
   }
+  /*Elimina el borde azul que aparece al seleccionar el boton*/
+  .rd-navbar-toggle:focus{
+    outline: none;
+  }
 }
 
 .rd-navbar-fixed .rd-navbar-toggle {
@@ -105,4 +111,17 @@ $spacers: (
 .rd-navbar-fixed .rd-navbar-nav-wrap {
   background: $secondary;
   top: 2rem;
+}
+
+.rd-navbar-fixed .rd-navbar-nav li>a {
+  display: block;
+  padding: 1rem 1rem 1rem 2rem;
+  color: #e1e1e1;
+}
+
+.rd-navbar-fixed .rd-navbar-nav li.opened>a,
+.rd-navbar-fixed .rd-navbar-nav li a:hover {
+  background: transparent;
+  text-decoration: none;
+  color: $primary;
 }

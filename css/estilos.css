@@ -9318,10 +9318,14 @@ a.text-dark:hover, a.text-dark:focus {
   padding: .3rem .5rem; }
 
 /*4.1 Estilos Rd-navbar (Vista Movil)*/
-.rd-navbar-fixed .rd-panel-encabezado {
-  position: fixed;
-  width: 100%;
-  z-index: 16; }
+.rd-navbar-fixed {
+  /*Elimina el borde azul que aparece al seleccionar el boton*/ }
+  .rd-navbar-fixed .rd-panel-encabezado {
+    position: fixed;
+    width: 100%;
+    z-index: 16; }
+  .rd-navbar-fixed .rd-navbar-toggle:focus {
+    outline: none; }
 
 .rd-navbar-fixed .rd-navbar-toggle {
   position: absolute;
@@ -9341,5 +9345,16 @@ a.text-dark:hover, a.text-dark:focus {
 .rd-navbar-fixed .rd-navbar-nav-wrap {
   background: #23282d;
   top: 2rem; }
+
+.rd-navbar-fixed .rd-navbar-nav li > a {
+  display: block;
+  padding: 1rem 1rem 1rem 2rem;
+  color: #e1e1e1; }
+
+.rd-navbar-fixed .rd-navbar-nav li.opened > a,
+.rd-navbar-fixed .rd-navbar-nav li a:hover {
+  background: transparent;
+  text-decoration: none;
+  color: #0073aa; }
 
 /*# sourceMappingURL=estilos.css.map */
