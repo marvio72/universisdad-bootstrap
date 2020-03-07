@@ -76,3 +76,10 @@ $spacers: (
     padding: .3rem .5rem;
   }
 }
+/*4.1 Estilos Rd-navbar (Vista Movil)*/
+.rd-navbar-fixed{
+  .rd-panel-encabezado{
+    position: fixed;
+    width: 100%;
+  }
+}
