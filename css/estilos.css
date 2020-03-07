@@ -9338,4 +9338,8 @@ a.text-dark:hover, a.text-dark:focus {
 .rd-navbar-fixed .rd-navbar-toggle span {
   background-color: #ababab; }
 
+.rd-navbar-fixed .rd-navbar-nav-wrap {
+  background: #23282d;
+  top: 2rem; }
+
 /*# sourceMappingURL=estilos.css.map */

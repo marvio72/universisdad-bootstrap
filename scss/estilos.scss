@@ -101,3 +101,8 @@ $spacers: (
 .rd-navbar-fixed .rd-navbar-toggle span {
   background-color: $campoBuscar;
 }
+
+.rd-navbar-fixed .rd-navbar-nav-wrap {
+  background: $secondary;
+  top: 2rem;
+}
