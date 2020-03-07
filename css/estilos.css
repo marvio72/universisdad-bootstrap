@@ -9357,4 +9357,26 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
   color: #0073aa; }
 
+/*Quita el fondo rojo del menú movil*/
+.rd-navbar-fixed .rd-navbar-nav li.active > a {
+  background: transparent;
+  color: #0073aa; }
+
+/*Parametros para mostrar la flecha derecha para abrir submenu*/
+.rd-navbar-fixed .rd-navbar-submenu-toggle:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: '\f054'; }
+
+/*Crea un margen izquierdo al submenu*/
+.rd-navbar-fixed .rd-navbar-submenu li > a {
+  padding-left: 2.8rem;
+  padding-top: .7rem;
+  padding-bottom: .7rem; }
+
+/*Formato de menu arriba de los 768px*/
+.rd-navbar-static .rd-navbar-nav > li > a {
+  text-transform: none;
+  text-decoration: none; }
+
 /*# sourceMappingURL=estilos.css.map */
