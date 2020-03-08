@@ -9366,7 +9366,16 @@ a.text-dark:hover, a.text-dark:focus {
 .rd-navbar-fixed .rd-navbar-submenu-toggle:before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: '\f054'; }
+  content: '\f078';
+  font-size: .8rem;
+  transition: transform .3s ease; }
+
+.rd-navbar-fixed .rd-navbar-submenu-toggle:hover {
+  color: #ffffff; }
+
+.rd-navbar-fixed .opened .rd-navbar-submenu-toggle:before {
+  color: #0073aa;
+  transform: rotate(180deg) translateY(50%); }
 
 /*Crea un margen izquierdo al submenu*/
 .rd-navbar-fixed .rd-navbar-submenu li > a {

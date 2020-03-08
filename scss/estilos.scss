@@ -1,6 +1,7 @@
-.row>*{
+.row>* {
   border: 1px solid red;
 }
+
 /*--------------------------------------------------------------
   1. Patrones de colores
   -------------------------------------------------------------*/
@@ -12,43 +13,43 @@ $secondary: #23282d;
 $texto: #32373c;
 $campoBuscar: #ababab;
 $textoMenu: #e2e2e2;
+$flechaMenu: #ffffff;
 
 /*--------------------------------------------------------------
   2. Modificando variables de Bootstrap
   -------------------------------------------------------------*/
 
 /* Modificando el mapa de colores de Bootstrap */
-$theme-colors:(
-    "primary": $primary,
-    "secondary": $secondary
-);
+$theme-colors:("primary": $primary,
+  "secondary": $secondary);
 
 /*Personalizando la apariencia de Bootstrap*/
-$enable-shadows                         : true;
-$enable-gradients                       : true;
-$body-color                             : $texto;
+$enable-shadows : true;
+$enable-gradients : true;
+$body-color : $texto;
 //Enlases
-$link-color                             : $primary;
-$link-decoration                        : none;
-$link-hover-color                       : $primary;
-$link-hover-decoration                  : underline;
+$link-color : $primary;
+$link-decoration : none;
+$link-hover-color : $primary;
+$link-hover-decoration : underline;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 $emphasized-link-hover-darken-percentage: 15% !default;
 // Bordes
-$border-radius                          : .25rem;
-$border-radius-lg                       : .3rem;
-$border-radius-sm                       : .2rem;
+$border-radius : .25rem;
+$border-radius-lg : .3rem;
+$border-radius-sm : .2rem;
 //Fuentes
-$font-family-base                       : 'Open Sans', sans-serif;;
+$font-family-base : 'Open Sans',
+sans-serif;
+;
 
 /*Modificando las clases de espaciados en Bootstrap*/
 $spacer: 1rem;
-$spacers: (
-    6: ($spacer * 3.5),
-    7: ($spacer * 4),
-    8: ($spacer * 4.5),
-    9: ($spacer * 5),
-    10: ($spacer * 6),
+$spacers: (6: ($spacer * 3.5),
+  7: ($spacer * 4),
+  8: ($spacer * 4.5),
+  9: ($spacer * 5),
+  10: ($spacer * 6),
 );
 
 /*--------------------------------------------------------------
@@ -59,8 +60,8 @@ $spacers: (
 /*--------------------------------------------------------------
   4. Estilos para el encabezado y menú Rd-navbar
   -------------------------------------------------------------*/
-.bloque-buscar{
-  .form-control{
+.bloque-buscar {
+  .form-control {
     border: 0;
     border-radius: 2px;
     background: darken($secondary, 10%);
@@ -68,25 +69,28 @@ $spacers: (
     font-size: .8rem;
     border-bottom: 1px solid lighten($secondary, 15%)
   }
-  .btnBuscar{
+
+  .btnBuscar {
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
     background: transparent;
     border: 0;
     color: $campoBuscar;
     padding: .3rem .5rem;
   }
 }
+
 /*4.1 Estilos Rd-navbar (Vista Movil)*/
-.rd-navbar-fixed{
-  .rd-panel-encabezado{
+.rd-navbar-fixed {
+  .rd-panel-encabezado {
     position: fixed;
     width: 100%;
     z-index: 16;
   }
+
   /*Elimina el borde azul que aparece al seleccionar el boton*/
-  .rd-navbar-toggle:focus{
+  .rd-navbar-toggle:focus {
     outline: none;
   }
 }
@@ -136,7 +140,19 @@ $spacers: (
 .rd-navbar-fixed .rd-navbar-submenu-toggle:before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: '\f054';
+  content: '\f078';
+  font-size: .8rem;
+  transition: transform .3s ease;
+}
+
+.rd-navbar-fixed .rd-navbar-submenu-toggle:hover {
+  color: $flechaMenu;
+}
+
+.rd-navbar-fixed .opened .rd-navbar-submenu-toggle:before{
+  color: $primary;
+  transform: rotate(180deg) translateY(50%);
+
 }
 
 /*Crea un margen izquierdo al submenu*/
@@ -148,6 +164,6 @@ $spacers: (
 
 /*Formato de menu arriba de los 768px*/
 .rd-navbar-static .rd-navbar-nav>li>a {
-  text-transform: none; 
+  text-transform: none;
   text-decoration: none;
 }
