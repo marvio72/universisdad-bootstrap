@@ -162,8 +162,19 @@ $spacers: (6: ($spacer * 3.5),
   padding-bottom: .7rem;
 }
 
+
+/*4.2 Estilos Rd-navbar (Vista Escritorio)*/
+.rd-navbar-static .rd-navbar-outer {
+  background: $secondary;
+}
+
 /*Formato de menu arriba de los 768px*/
 .rd-navbar-static .rd-navbar-nav>li>a {
   text-transform: none;
-  text-decoration: none;
+  text-decoration: capitalize;
+  font-size: .85rem;
+  font-weight: bold;
+  color: $textoMenu;
+  padding: .8rem .4rem;
+  line-height: 1.5rem;
 }
