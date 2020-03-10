@@ -1,7 +1,4 @@
 @charset "UTF-8";
-.row > * {
-  border: 1px solid red; }
-
 /*--------------------------------------------------------------
   1. Patrones de colores
   -------------------------------------------------------------*/
@@ -9417,5 +9414,15 @@ a.text-dark:hover, a.text-dark:focus {
   background: #333a41;
   left: 25%;
   transform: rotate(45deg) translateY(-8px); }
+
+.rd-navbar-static .rd-navbar-dropdown li > a,
+.rd-navbar-static .rd-navbar-megamenu li > a {
+  color: #e2e2e2;
+  white-space: nowrap; }
+  .rd-navbar-static .rd-navbar-dropdown li > a:hover,
+  .rd-navbar-static .rd-navbar-megamenu li > a:hover {
+    color: #0073aa;
+    text-decoration: none;
+    background: transparent; }
 
 /*# sourceMappingURL=estilos.css.map */

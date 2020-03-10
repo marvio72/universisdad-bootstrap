@@ -1,5 +1,5 @@
 .row>* {
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 /*--------------------------------------------------------------
@@ -201,4 +201,15 @@ $spacers: (6: ($spacer * 3.5),
   background: lighten($secondary, 7%);
   left: 25%;
   transform: rotate(45deg) translateY(-8px);
+}
+
+.rd-navbar-static .rd-navbar-dropdown li>a,
+.rd-navbar-static .rd-navbar-megamenu li>a {
+  color: $textoMenu;
+  white-space: nowrap;
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+    background: transparent;
+  }
 }
