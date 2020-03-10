@@ -177,4 +177,9 @@ $spacers: (6: ($spacer * 3.5),
   color: $textoMenu;
   padding: .8rem .4rem;
   line-height: 1.5rem;
+  &:hover{
+    color: $primary;
+    text-decoration: none;
+  }
 }
+

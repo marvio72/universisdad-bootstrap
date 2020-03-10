@@ -9396,5 +9396,8 @@ a.text-dark:hover, a.text-dark:focus {
   color: #e2e2e2;
   padding: .8rem .4rem;
   line-height: 1.5rem; }
+  .rd-navbar-static .rd-navbar-nav > li > a:hover {
+    color: #0073aa;
+    text-decoration: none; }
 
 /*# sourceMappingURL=estilos.css.map */
