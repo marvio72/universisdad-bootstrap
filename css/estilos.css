@@ -9392,7 +9392,7 @@ a.text-dark:hover, a.text-dark:focus {
   text-transform: none;
   text-decoration: capitalize;
   font-size: .85rem;
-  font-weight: bold;
+  font-weight: normal;
   color: #e2e2e2;
   padding: .8rem .4rem;
   line-height: 1.5rem; }
