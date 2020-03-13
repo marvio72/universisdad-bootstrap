@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.row > * {
+  border: 1px solid red; }
+
 /*--------------------------------------------------------------
   1. Patrones de colores
   -------------------------------------------------------------*/
@@ -9437,5 +9440,9 @@ a.text-dark:hover, a.text-dark:focus {
 .contenedor-idioma {
   max-width: 1070px;
   margin: 0 auto; }
+
+/*--------------------------------------------------------------
+  7. Estilos para la seccion .backend
+  -------------------------------------------------------------*/
 
 /*# sourceMappingURL=estilos.css.map */

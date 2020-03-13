@@ -1,5 +1,5 @@
 .row>* {
-  // border: 1px solid red;
+  border: 1px solid red;
 }
 
 /*--------------------------------------------------------------
@@ -14,7 +14,7 @@ $texto: #32373c;
 $campoBuscar: #ababab;
 $textoMenu: #e2e2e2;
 $flechaMenu: #ffffff;
-
+$backend: #82878C;
 /*--------------------------------------------------------------
   2. Modificando variables de Bootstrap
   -------------------------------------------------------------*/
@@ -149,7 +149,7 @@ $spacers: (6: ($spacer * 3.5),
   color: $flechaMenu;
 }
 
-.rd-navbar-fixed .opened .rd-navbar-submenu-toggle:before{
+.rd-navbar-fixed .opened .rd-navbar-submenu-toggle:before {
   color: $primary;
   transform: rotate(180deg) translateY(50%);
 
@@ -177,7 +177,8 @@ $spacers: (6: ($spacer * 3.5),
   color: $textoMenu;
   padding: .8rem .4rem;
   line-height: 1.5rem;
-  &:hover{
+
+  &:hover {
     color: $primary;
     text-decoration: none;
   }
@@ -193,7 +194,7 @@ $spacers: (6: ($spacer * 3.5),
   background: lighten($secondary, 7%);
 }
 
-.rd-navbar-static .rd-navbar-nav>li>.rd-navbar-dropdown:before{
+.rd-navbar-static .rd-navbar-nav>li>.rd-navbar-dropdown:before {
   content: "";
   width: .8rem;
   height: .8rem;
@@ -207,6 +208,7 @@ $spacers: (6: ($spacer * 3.5),
 .rd-navbar-static .rd-navbar-megamenu li>a {
   color: $textoMenu;
   white-space: nowrap;
+
   &:hover {
     color: $primary;
     text-decoration: none;
@@ -228,3 +230,7 @@ $spacers: (6: ($spacer * 3.5),
   max-width: 1070px;
   margin: 0 auto;
 }
+
+/*--------------------------------------------------------------
+  7. Estilos para la seccion .backend
+  -------------------------------------------------------------*/
