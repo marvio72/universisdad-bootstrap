@@ -294,7 +294,7 @@ $spacers: (6: ($spacer * 3.5),
   9. Estilos sección caracteristicas
   -------------------------------------------------------------*/
 .caracteristicas{
-  .col-6{
+  .col{
     border-bottom: 1px solid $bordeDivision;
     border-right: 1px solid $bordeDivision;
     &:nth-child(n+7){
@@ -315,7 +315,7 @@ $spacers: (6: ($spacer * 3.5),
   } 
   
   .caracteristicas {
-    .col-6 {
+    .col {
       &:nth-child(n){
         border-right: 1px solid $bordeDivision;
       }
