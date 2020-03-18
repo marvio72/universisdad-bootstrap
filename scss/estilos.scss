@@ -1,6 +1,6 @@
-.row>* {
-  // border: 1px solid red;
-}
+// .row>* {
+//   border: 1px solid red;
+// }
 
 /*--------------------------------------------------------------
   1. Patrones de colores
@@ -93,11 +93,6 @@ $spacers: (6: ($spacer * 3.5),
     width: 100%;
     z-index: 16;
   }
-
-  /*Elimina el borde azul que aparece al seleccionar el boton*/
-  .rd-navbar-toggle:focus {
-    outline: none;
-  }
 }
 
 .rd-navbar-fixed .rd-navbar-toggle {
@@ -109,6 +104,10 @@ $spacers: (6: ($spacer * 3.5),
   border: 0;
   transform: scale(1.4);
   padding: 0;
+  /*Elimina el borde azul que aparece al seleccionar el boton*/
+  &:focus {
+    outline: none;
+  }
 }
 
 .rd-navbar-fixed .rd-navbar-toggle span:after,
@@ -338,6 +337,13 @@ $spacers: (6: ($spacer * 3.5),
     
   .backendMovil {
     right: .3rem;
+  }
+  
+ }
+/*---------------------------Vista Xl--------------------------*/
+@media (min-width: 1200px){ 
+  .caracteristicas .container-lg{
+    max-width: 960px;
   }
   
  }
