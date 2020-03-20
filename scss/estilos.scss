@@ -8,6 +8,7 @@
 //Color de Fondo
 $primary: #0073aa;
 $secondary: #23282d;
+$footer: #F7F7F7;
 
 //Texto varios
 $texto: #32373c;
@@ -312,6 +313,19 @@ $spacers: (6: ($spacer * 3.5),
 .comunidad{
   height: 31rem;
   background: radial-gradient(rgba(25, 24, 24, 0.34), rgb(10, 10, 10));
+}
+
+/*--------------------------------------------------------------
+  11. Estilos .pieDePagina
+  -------------------------------------------------------------*/
+.pieDePagina{
+  ul {
+    list-style: none;
+    margin-bottom: 1.25rem;
+  }
+  i{
+    color: $campoBuscar;
+  }
 }
 /*--------------------------------------------------------------
   X. Show de las Medias Queries
